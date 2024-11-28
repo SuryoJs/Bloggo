@@ -44,3 +44,7 @@ const showProfile = () => {
 const logout = () => {
     window.location.href = "login.html"
 }
+
+const showForm = () => {
+    document.getElementById("AddForm").style.zIndex = "9"
+}

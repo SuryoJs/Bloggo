@@ -186,6 +186,19 @@
         .crud-template button img:hover {
             filter: invert(50%) sepia(100%) saturate(0%);
         }
+        .formAdd {
+            z-index: -9;
+            background-color: transparent;
+            backdrop-filter: blur(10px);
+            position: absolute;
+            top: 30%;
+            left: 40%;
+            transform: translate(-50%, -50%);
+            width: 70%;
+            height: 50%;
+            border-radius: 20px;
+            border: 2px solid white;
+        }
     </style>
 </head>
 <body>
@@ -215,8 +228,9 @@
         <div class="main-right">
             <div id="template">
                 <div class="template-header">
+                    <div class="formAdd" id="AddForm"></div>
                     <div class="add-button">
-                        <button type="button"><img src="add-Icon.png" width="40rem">Add new template</button>
+                        <button type="button" onclick="showForm()"><img src="add-Icon.png" width="40rem">Add new template</button>
                     </div>
                 </div>
                 <div class="template-main">
