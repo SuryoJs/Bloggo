@@ -1,0 +1,359 @@
+
+#container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+}
+
+.elementBol{
+    width: 200px;
+    margin-right: -750px;
+    margin-top: 100px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    background-color:rgba(255, 127, 62, 1) ;
+    animation: AnimBol 3s ease-in-out infinite  ;
+}
+.elementBol2{
+    width: 200px;
+    margin-right: -450px;
+    margin-top: 100px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    background-color:rgba(255, 127, 62, 1) ;
+    animation: AnimBol 2s ease-in-out infinite  ;
+}
+.elementBol3{
+    width: 200px;
+    margin-right: -1100px;
+    margin-top: 100px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    background-color:rgba(255, 127, 62, 1) ;
+    animation: AnimBol 4s ease-in-out infinite  ;
+}
+
+
+@keyframes AnimBol{
+    0%{transform: translateY(0px);width: 180px; height: 180px;box-shadow: 0px 20px 0px rgb(146, 62, 20); }
+ 
+    50%{transform: translateY(442px);width: 100px;height: 90PX;box-shadow: 0px 7px 0px rgb(146, 62, 20); z-index: 1;}
+    
+    100%{transform: translateY(0px) ; width: 180px; height: 180px;box-shadow: 0px 20px 0px rgb(146, 62, 20); }
+
+}
+
+#JdulWb {
+    font-family: "Zen Dots", sans-serif;
+    font-size: 100px;
+    margin-right: 300px;
+    font-weight: 300;
+    color: rgba(255, 127, 62, 1);
+    margin-top: 200px;
+
+}
+
+.desk {
+    display: flex;
+    font-family: "Zen Dots", sans-serif;
+    font-size: 26px;
+    flex-direction: row;
+    color: rgba(255, 127, 62, 1);
+    gap: 7px;
+    margin-top: -60px;
+    margin-left: 30px;
+
+}
+
+.judul {
+    display: flex;
+    margin-right: 60px;
+    flex-direction: column;
+}
+
+
+@keyframes wow {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(-150px);
+        opacity: 100%;
+    }
+}
+
+@keyframes wowBalik {
+    from {
+        transform: translateY(-150px);
+    }
+
+    to {
+        transform: translateY(0px);
+    }
+}
+
+.footer {
+    background-color: rgb(255, 0, 0);
+    margin-top: 150px;
+}
+
+
+
+.tutupan {
+    width: 160px;
+    height: 28px;
+    background-color: white;
+    margin-top: 300px;
+    position: absolute;
+    margin-left: 94px;
+}
+
+.tutupan2 {
+    width: 160px;
+    height: 28px;
+    background-color: white;
+    margin-top: 360px;
+    position: absolute;
+    margin-left: 94px;
+}
+
+.page1 {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+
+
+
+.buttonAtas {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+}
+
+#masuk {
+    font-family: "Radio Canada", sans-serif;
+    font-size: 15px;
+    padding: 15px;
+    padding-top: 8px;
+    border: 1px solid;
+    color: black;
+    border-color: rgba(255, 0, 0, 1);
+    padding-bottom: 8px;
+    border-radius: 15px;
+
+}
+
+.bLOG {
+    display: inline-block;
+
+}
+
+.PROFILE {
+    display: block;
+    color: rgba(128, 196, 233, 1);
+}
+
+.animat {
+    animation: ganti 7s infinite;
+    z-index: -1;
+}
+
+@keyframes ganti {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+#daftar {
+    font-family: "Radio Canada", sans-serif;
+    font-size: 15px;
+    padding: 15px;
+    padding-top: 8px;
+    border: 1px solid;
+    background-color: transparent;
+    color: black;
+    border-color: rgba(255, 0, 0, 1);
+    padding-bottom: 8px;
+    border-radius: 15px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+/* end page 1 */
+.page2 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: rgba(255, 127, 62, 1);
+}
+
+.page2 h1 {
+    font-family: "Rubik Broken Fax", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 138px;
+    color: white;
+}
+
+.canvs {
+    position: absolute;
+    margin-top:30px ;
+    height: 50%;
+    width: 100%;
+    background-color: white;
+}
+
+.knim{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+
+}
+
+.kotakAnm2{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 8px;
+    margin-left: 760px;
+    position: absolute;
+}
+
+.kotakAnm1 {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    position: absolute;
+    
+
+
+}
+
+.kotak1 {
+    width: 137px;
+    height: 100px;
+    margin-top: -10px;
+    background-color: white;
+    animation: susunan 4s ease-in-out infinite;
+}
+.kotak2{
+    width: 100px;
+    background-color: white;
+    height: 100px;
+    margin-top: -10px;
+    animation: susunan 6s ease-in-out infinite ;
+
+}
+.kotak3{
+    width: 100px;
+    background-color: white;
+    height: 100px;
+    margin-top: -10px;
+    animation: susunan 8s ease-in-out infinite ;
+}
+.kotak4{
+    width: 100px;
+    background-color: white;
+    height: 100px;
+    margin-top: -20px;
+    animation: susunanSedang 10s ease-in-out infinite;
+}
+.kotak5{
+    width: 100px;
+    background-color: white;
+    height: 100px;
+    margin-top: -40px;
+    animation: susunanBesar 12s ease-in-out infinite ;   
+
+}
+
+#gambar1{
+    width: 500px;
+    height: 270px;
+    margin-left: 20px;
+    margin-top: -15px;
+    background-image: url(imgpage2.png);
+    background-size: cover;
+}
+
+#descImg1{
+    font-family: "Akatab", sans-serif;
+    font-weight: 800;
+  width: 700px;
+  color: #fd8a51;
+  font-size: 36px;
+  font-style: normal;
+  margin-top: 60px;
+  text-align: justify;
+
+}
+
+.gDesc{
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+
+}
+
+@keyframes susunanBesar{
+    0%{transform: translateY(140px);}
+    50%{transform: translateY(0px);}
+    100%{transform: translateY(140px);}
+}
+@keyframes susunanSedang{
+    0%{transform: translateY(120px);}
+    50%{transform: translateY(0px);}
+    100%{transform: translateY(120px);}
+}
+@keyframes susunan{
+    0%{transform: translateY(100px);}
+    50%{transform: translateY(0px);}
+    100%{transform: translateY(100px);}
+}
+
+/* area beranda user */
+
+.navbar{
+    border-radius: 20px;
+    position: sticky;
+    color: white;
+    box-shadow: 1px 2px 2px rgba(255, 127, 62, 1) ;
+    animation: navAnimate 2s ease;
+}
+
+.col-8{
+    margin-left: 50px;
+}
+
+@keyframes navAnimate {
+    0% {transform: translateY(-60px);}
+    100%{transform: translateY(0px);}
+}
